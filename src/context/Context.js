@@ -2,7 +2,6 @@ import React, { createContext, useContext, useReducer } from "react";
 import faker from "faker";
 import { cartReducer, productReducer } from "./Reducers";
 import axios from "axios";
-import {data} from "../NYOBAPI"
 
 const Cart = createContext();
 
