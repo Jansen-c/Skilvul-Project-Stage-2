@@ -96,11 +96,11 @@ const Filters = () => {
         variant="light"
         onClick={() =>
           productDispatch({
-            type: "Hilangkan Filter",
+            type: "CLEAR_FILTERS",
           })
         }
       >
-        Clear Filters
+        Hilangkan Filter
       </Button>
     </div>
   );
