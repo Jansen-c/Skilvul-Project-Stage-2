@@ -12,11 +12,11 @@ const Filters = () => {
 
   return (
     <div className="filters">
-      <span className="title">Filter Products</span>
+      <span className="title">Filter Produk</span>
       <span>
         <Form.Check
           inline
-          label="Ascending"
+          label="Termurah ke Termahal"
           name="group1"
           type="radio"
           id={`inline-1`}
@@ -32,7 +32,7 @@ const Filters = () => {
       <span>
         <Form.Check
           inline
-          label="Descending"
+          label="Termahal ke Termurah"
           name="group1"
           type="radio"
           id={`inline-2`}
@@ -48,7 +48,7 @@ const Filters = () => {
       <span>
         <Form.Check
           inline
-          label="Include Out of Stock"
+          label="Tampilkan Stok Habis"
           name="group1"
           type="checkbox"
           id={`inline-3`}
@@ -63,7 +63,7 @@ const Filters = () => {
       <span>
         <Form.Check
           inline
-          label="Fast Delivery Only"
+          label="Gratis Ongkir"
           name="group1"
           type="checkbox"
           id={`inline-4`}
@@ -96,7 +96,7 @@ const Filters = () => {
         variant="light"
         onClick={() =>
           productDispatch({
-            type: "CLEAR_FILTERS",
+            type: "Hilangkan Filter",
           })
         }
       >
