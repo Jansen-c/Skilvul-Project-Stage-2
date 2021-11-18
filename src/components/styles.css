@@ -127,9 +127,9 @@
       padding: 20px;
       display: flex;
       flex-direction: column;
-      width: 20%;
+      width: 30%;
       margin: 10px;
-      height: 55vh;
+      height: 60%;
       border-radius: 10px;
     }
   
@@ -162,7 +162,82 @@
     }
   
       /* Responsive Tablet */
+      @media screen and (max-width: 1400px) {
+      
+        .detailContainer {
+          display: flex;
+          width: 70%;
+          padding: 15px;
+          flex-wrap: wrap;
+          justify-content: space-around; 
+        }
+  
+        .imageSuccess1{
+          width: 50% !important; 
+          height: 30% !important;
+          object-fit: contain !important;
+          display: flex;
+        }
+  
+        .filters1 {
+          background-color: #485461;
+          background-image: linear-gradient(315deg, #485461 0%, #28313b 74%);
+          color: white;
+          padding: 20px;
+          display: flex;
+          flex-direction: column;
+          width: 40%;
+          margin: 10px;
+          height: 70%;
+          border-radius: 10px;
+        }
+      }
+    
+      @media screen and (max-width: 1200px) {
+        .detailContainer {
+          display: flex;
+          width: 70%;
+          padding: 15px;
+          flex-wrap: wrap;
+          justify-content: space-around; 
+        }
+  
+        .imageSuccess1{
+          width: 50% !important; 
+          height: 30% !important;
+          object-fit: contain !important;
+          display: flex;
+        }
+  
+        .filters1 {
+          background-color: #485461;
+          background-image: linear-gradient(315deg, #485461 0%, #28313b 74%);
+          color: white;
+          padding: 20px;
+          display: flex;
+          flex-direction: column;
+          width: 30%;
+          margin: 10px;
+          height: 60%;
+          border-radius: 10px;
+        }
+      }
+  
       @media screen and (max-width: 992px) {
+        
+        .filters1 {
+          background-color: #485461;
+          background-image: linear-gradient(315deg, #485461 0%, #28313b 74%);
+          color: white;
+          padding: 20px;
+          display: flex;
+          flex-direction: column;
+          width: 45%;
+          margin: 10px;
+          height: 60%;
+          border-radius: 10px;
+        }
+  
         .dropdownCart{
           width: 500%;
         }
@@ -179,6 +254,13 @@
           padding: 15px;
           flex-wrap: wrap;
           justify-content: space-around; 
+        }
+  
+        .imageSuccess1{
+          width: 50% !important; 
+          height: 35% !important;
+          object-fit: contain !important;
+          display: flex;
         }
         
         .filters {
@@ -226,6 +308,20 @@
     /* Responsive Mobile */
   
     @media screen and (max-width: 768px) {
+      
+      .filters1 {
+        background-color: #485461;
+        background-image: linear-gradient(315deg, #485461 0%, #28313b 74%);
+        color: white;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        margin: 10px;
+        height: 80%;
+        border-radius: 10px;
+      }
+  
       .dropdownCart{
         width: 420%;
       }
@@ -294,6 +390,43 @@
     }
   
     @media screen and (max-width: 576px){
+      
+      .detailContainer {
+        display: flex;
+        width: 70%;
+        padding: 15px;
+        flex-wrap: wrap;
+        justify-content: space-around; 
+      }
+  
+      .title-detail{
+        font-size: 14px !important;
+      }
+  
+      .text-detail{
+        font-size: 12px;
+      }
+  
+      .imageSuccess1{
+        width: 50% !important; 
+        height: 20% !important;
+        object-fit: contain !important;
+        display: flex;
+      }
+  
+      .filters1 {
+        background-color: #485461;
+        background-image: linear-gradient(315deg, #485461 0%, #28313b 74%);
+        color: white;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        margin: 10px;
+        height: 65%;
+        border-radius: 10px;
+      }
+  
       .dropdownCart{
         width: 350%;
       }
@@ -326,5 +459,20 @@
   
       .CartButton{
         font-size: 0.85rem !important;
+      }
+  
+      .detailContainer {
+        display: flex;
+        width: 80%;
+        padding: 15px;
+        flex-wrap: wrap;
+        justify-content: space-around; 
+      }
+    
+      .imageSuccess1{
+        width: 50% !important; 
+        height: 20% !important;
+        object-fit: contain !important;
+        display: flex;
       }
     }
