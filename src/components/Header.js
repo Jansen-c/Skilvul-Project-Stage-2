@@ -51,7 +51,7 @@ const Header = () => {
               <Badge>{cart.length}</Badge>
             </Dropdown.Toggle>
 
-            <Dropdown.Menu style={{ minWidth: 370 }}>
+            <Dropdown.Menu className="dropdownCart">
               {cart.length > 0 ? (
                 <>
                   {cart.map((prod) => (
@@ -61,7 +61,7 @@ const Header = () => {
                         className="cartItemImg"
                         alt={prod.name}
                       />
-                      <div className="cartItemDetail">
+                      <div className="cartItemDetail CartSize">
                         <span>{prod.name}</span>
                         <span>Rp {prod.price*10000}</span>
                       </div>
@@ -78,7 +78,7 @@ const Header = () => {
                     </span>
                   ))}
                   <Link to="/cart">
-                    <Button style={{ width: "95%", margin: "0 10px" }}>
+                    <Button className="CartButton">
                       Pindah ke Keranjang
                     </Button>
                   </Link>
